@@ -901,7 +901,7 @@ static CGFloat RCTDefaultIfNegativeTo(CGFloat defaultValue, CGFloat x) {
 #if TARGET_OS_OSX // [TODO(macOS ISS#2323203)
   // clipsToBounds is stubbed out on macOS because it's not part of NSView
   layer.masksToBounds = self.clipsToBounds;
-#endif // [TODO(macOS ISS#2323203)
+#endif // ]TODO(macOS ISS#2323203)
 
   const RCTCornerRadii cornerRadii = [self cornerRadii];
   const UIEdgeInsets borderInsets = [self bordersAsInsets];
